@@ -1,0 +1,35 @@
+
+.accordion__block .accordion__item {
+  padding: 15px;
+  border: 1px #e3e3e3 solid;
+  border-radius: 5px;
+  margin: 0px 0px 30px 0px;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordion__block.dark-theme .accordion__item {
+  background-color: #3e3e3e;
+  color: #fff;
+  border-color: #3e3e3e;
+}
+
+.accordion__block .accordion__item:last-child {
+  margin: 0px;
+}
+
+.accordion__block .accordion__title {
+  margin: 0px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.accordion__block .accordion__content {
+  margin: 15px 0px 0px 0px;
+  font-size: 18px;
+  display: none;
+}
+
+.accordion__block .accordion__content img {
+  width: 100%;
+}
